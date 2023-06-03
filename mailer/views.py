@@ -10,3 +10,4 @@ class IndexView(ListView):
     template_name = "mailer/index.html"
     model = Company
     paginate_by = 100
+    ordering = ['name']
